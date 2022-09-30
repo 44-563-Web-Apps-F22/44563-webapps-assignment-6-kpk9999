@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head><title>KPK</title></head>
- 
 <body>
     <h1>Musician guess by</h1>
-
 <h2>Getting input</h2>
-
-
 <label for="SecretMusician">Enter the secret musician name </label>
     <input type ="password" id="SecretMusician" name="SecretMusician" min=10 max=50 step=2 value="John Lennon"> <br>
 
@@ -17,7 +13,6 @@
     <input type="button" onclick="checkGuess()" value="Check the guess ">
 </form>
 <p id="result">This text will be replaced </p>
-
 <script> 
     correct=0;
     wrong=0;
@@ -33,11 +28,8 @@
         wrong+=1
         alert("Wrong Musician")
        }
-        
         result.innerHTML="Correct guess: "+correct+"Wrong guess: "+wrong
 }
 </script>
-
-
 </body>
 </html> 
