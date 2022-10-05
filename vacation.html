@@ -9,32 +9,31 @@
        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <body>
 
-<h2>KPK Selects a Vacation</h2>
+<h2 style="text-align:center">KPK Selects a Vacation</h2>
 <form>
     <input type="checkbox" id="air" name="topping1"   
           value="True">
-        <label for="Air">Travel by Air</label></br>
+        <label for="Air">Travel by Air</label></br></br>
       
     <input type="checkbox" id="dom" name="topping2" 
            value="True">
-        <label for="domestic">Domestic</label></br>
+        <label for="domestic">Domestic</label></br></br>
       
     <input type="checkbox" id="resort" name="topping3"   
            value="False">
-        <label for="resort">Resort</label></br>
+        <label for="resort">Resort</label></br></br>
 
-    <input type="button" class="btn btn-secondary" type="button" onclick="selectVacation()" value="Select a Vacation">
-</form>
+    <input type="button" class="btn btn-secondary" type="button" onclick="selectVacation()" value="Select a Vacation"></br>
+</form></br>
 <form>
-    <label for="property">Enter a city</label>
-    <input type ="text" id="property" name="property" value="city"> <br>
+    <label for="property">Enter a city</label></br>
+    <input type ="text" id="property" name="property" value="city"> </br>
 
-    <label for="check">Enter price</label>
-    <input type ="text" id="value" name="check"><br>
+    <label for="check">Enter price</label></br>
+    <input type ="text" id="value" name="check"><br></br>
 
     <input type="button" class="btn btn-secondary" type="button" onclick="updateVacation()" value="Update the Vacation">
-</form>
-
+</form></br>
 
 <p id="result">This text will be replaced </p>
 
